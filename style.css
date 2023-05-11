@@ -1,0 +1,137 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url(imgs/fundo.jpeg);
+}
+
+header{
+    width: 100%;
+    height: 5vw;
+    background-color: rgb(181, 8, 5);
+    padding: 2vw 2vw;
+
+}
+
+
+header h1 img{
+    width: 80px;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+}
+
+.nomeSite{
+    margin-left: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #ededed;
+}
+
+.navegacao{
+    width: 100%;
+    background-color: #fbfbfb;
+    padding: 15px 0 10px 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.135);
+    box-shadow: 5px 5px 10px #d5d5d5;
+   
+}
+
+.topo{
+    z-index: 2;
+    width: 100%;
+    position: fixed;
+}
+
+.navegacao ul li{
+    display: inline;
+    margin-left: 35px;
+    font-size: 15px;
+}
+
+
+.navegacao a{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+}
+
+.navegacao a:hover{
+    border-bottom: 3px solid rgb(255, 34, 34);
+    transition: 2s;
+}
+
+.Marvel_Principal a{
+    color: rgb(255, 34, 34);
+     transition: 2s;
+     border-bottom: 3px solid rgb(255, 34, 34);
+     transition: 2s;
+ }
+
+ .DC_DC a{
+    color: rgb(255, 34, 34);
+     border-bottom: 3px solid rgb(255, 34, 34);
+     transition: 2s;
+ }
+
+ main{
+    margin: 0 50px;
+    background-color: rgba(233, 233, 233, 0.950);
+    padding: 150px 200px;
+    height: 100%;
+ }
+
+ .ContainerHeroi{
+    align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.231);
+    width: 50%;
+    margin: 0px 20px;
+ }
+
+ .colunaIndex{
+    margin-top: 10%;
+ }
+
+ .colunaUm, .colunaIndex, .colunaDois, .colunaTres{
+    display: flex;
+    margin-bottom: 10%;
+ }
+ 
+
+ .capa{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+ }
+
+ .ContainerHeroi:hover{
+   z-index: 1;
+   transform: scale(1.001);
+   border: 1px solid #ff0000;
+   transition: 0.4s;
+  
+ }
+
+ .tituloHeroi{
+    margin: 15px auto 15px 10px;
+ }
+
+ .Descricao{
+    margin: 15px auto 30px 10px;
+ }
+
+footer{
+    color:#ededed;
+    width: 100%;
+
+    background-color: rgb(181, 8, 5);
+    padding: 2vw 0vw;
+    align-items: center;
+    text-align: center;
+}
+
+footer img{
+    width: 8%;
+    margin-top: 1%;
+}
+
