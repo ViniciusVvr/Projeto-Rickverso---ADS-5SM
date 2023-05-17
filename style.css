@@ -14,6 +14,7 @@ header{
 
 header h1 img{
     width: 80px;
+    top: 50%;
 }
 
 .cabecalho{
@@ -43,7 +44,7 @@ header h1 img{
     position: fixed;
 }
 
-.botaoSobre {
+.botaoSobre, .botaoSobrePrinc {
     background-color: rgba(216, 154, 153, 0.637);
     border: none;
     color: white;
@@ -66,28 +67,14 @@ header h1 img{
     transition: 0.2s;
   }
 
-  .botaoContato {
-    background-color: rgba(216, 154, 153, 0.637);
-    border: none;
-    color: white;
-    border-radius: 27px;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
-    cursor: pointer;
-    position: fixed;
-    right: 15%;
-  
-  }
-
-  .botaoContato:hover{
-    background-color: rgba(255, 4, 0, 0.938);
+  .botaoBusca:hover{
+    background-color: rgba(179, 3, 0, 0.938);
     transform: scale(1.1);
     transition: 0.2s;
   }
+  
+
+
 
 .navegacao ul li{
     display: inline;
@@ -106,6 +93,27 @@ header h1 img{
     transition: 2s;
 }
 
+.buscaPlaceholder{
+    background-color: rgba(255, 34, 34, 0.034);
+    padding: 5px;
+    border-color: rgb(255, 34, 34);
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+    margin-left: 70%;
+}
+
+.botaoBusca{
+  border-color:rgb(255, 34, 34);
+  padding: 10px;
+  color: rgb(241, 241, 241);
+  background-color: #940000;
+  border-radius: 5px;
+
+}
+
+
+
 .Marvel_Principal a{
     color: rgb(255, 34, 34);
      transition: 2s;
@@ -119,6 +127,12 @@ header h1 img{
      transition: 2s;
  }
 
+ .botaoSobrePrinc, .botaoContatoPrinc{
+    background-color: rgba(255, 4, 0, 0.938);
+ }
+
+
+
  main{
     margin: 0 50px;
     background-color: rgba(233, 233, 233, 0.950);
@@ -126,18 +140,34 @@ header h1 img{
     height: 100%;
  }
 
- .ContainerHeroi{
+ .mainSobre{
+    margin: 0 50px;
+    background-color: rgba(233, 233, 233, 0.950);
+    padding: 150px 200px;
+    height: 100%;
+    
+ }
+
+ .ContainerHeroi, .ContainerSobre{
     align-items: center;
     border: 2px solid rgba(0, 0, 0, 0.231);
     width: 50%;
     margin: 0px 20px;
  }
 
- .colunaIndex{
+
+ .colunaMarvel, .colunaDC{
     margin-top: 10%;
  }
 
- .colunaUm, .colunaIndex, .colunaDois, .colunaTres{
+ .colunaSobre{
+    justify-content: center;
+    margin-top: 20%;
+    text-align: center;
+    
+ }
+
+ .colunaMarvel, .colunaDC, .colunaSobre{
     display: flex;
     margin-bottom: 10%;
  }
@@ -158,11 +188,11 @@ header h1 img{
   
  }
 
- .tituloHeroi{
+ .tituloHeroi, .nomeFecaf{
     margin: 15px auto 15px 10px;
  }
 
- .Descricao{
+ .Descricao, .sobre{
     margin: 15px auto 30px 10px;
  }
 
@@ -173,6 +203,9 @@ footer{
     padding: 2vw 0vw;
     align-items: center;
     text-align: center;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
 }
 
 footer img{
