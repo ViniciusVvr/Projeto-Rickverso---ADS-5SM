@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <!-- adição de links e padrões -->
+  <head>
+       <meta charset="UTF-8" />
+       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>RickVerso</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section class="topo"><!-- Tudo que for o topo do site estará nessa section -->
+    <header>
+      <div class="cabecalho">
+      <h1 class="logoSite"><img src="imgs/logoSite.png" alt="Icone/logo"></h1>
+      <h2 class="nomeSite">RickVerso</h2>
+      <a href="sobre.html" class="botaoSobre">SOBRE</a>
+      </div>
+    </header>
+        <nav class="navegacao"><!-- classe utilizada para melhor entendimento no CSS -->
+            <ul>
+              <li class="principal"><a href="index.html">Ferramenta de busca</a></li>
+              <input class="buscaPlaceholder" type="text" name="nomePersonagem" value="" placeholder="Nome do personagem" />
+              <button class="botaoBusca">Buscar</button>
+            </ul>
+        </nav>
+      </section>
+
+
+        <main><!-- Inicio do conteúdo do site -->
+
+          <!-- Separarei as colunas onde estarão as ofertas de desenvolvedor -->
+                  <div class="coluna">
+                  <div class="container">
+                  <img src="imgs/camisaFemina.webp" alt="capa" class="capa">
+                  <p class="oferta">Conheça a nossa mais nova linha de camisetas!</p>
+                  <p class="descricao">acesse o nosso instagran <a class="links" href="#" >@RickVerso</a> e utilize o cupom "25RICK
+                     para obter 25% de desconto na primeira compra!</p>
+                  </div>
+
+                  <div class="container">
+                  <img src="imgs/produtoRick.webp" alt="capa" class="capa">
+                  <p class="oferta">A nova linha de canecas oficiais está chegando!</p>
+                  <p class="descricao">acesse o nosso instagran <a class="links" href="#" >@RickVerso</a> e utilize o cupom "25REFORÇADA
+                     para obter 25% de desconto na primeira compra!</p>
+                  </div>
+                  </div>
+                
+
+                <div><!-- Abaixo deste texto teremos o resultado da busca da API -->
+                <p class="catalisador">Nosso catalizador de resultados quânticos encontrou algo:</p>
+                </div>
+        </main>
+        
+        <footer>
+        <h1>Site para trabalho de HTML, CSS e JavaScript do professor Marcel.
+        </h1>
+        <h1 class="iconeRodape"><img src="imgs/imgRodapé.png" alt="Icone/rodape"></h1>
+        <p>ADS - 5°Semestre</p>
+        </footer>
+  </body>
+</html>
