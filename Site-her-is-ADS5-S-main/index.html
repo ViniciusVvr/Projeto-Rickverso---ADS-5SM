@@ -11,6 +11,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <script src="./js/script.js"></script>
   </head>
   <body>
     <section class="topo"><!-- Tudo que for o topo do site estará nessa section -->
@@ -24,14 +25,14 @@
         <nav class="navegacao"><!-- classe utilizada para melhor entendimento no CSS -->
             <ul>
               <li class="principal"><a href="index.html">Ferramenta de busca</a></li>
-              <input class="buscaPlaceholder" type="text" name="nomePersonagem" value="" placeholder="Nome do personagem" />
-              <button class="botaoBusca">Buscar</button>
+              <input class="buscaPlaceholder" type="text" name="nomePersonagem" value="" placeholder="Nome do personagem" id="nome" />
+              <button class="botaoBusca" onClick="buscarDados()" >Buscar</button>
             </ul>
         </nav>
       </section>
 
 
-        <main><!-- Inicio do conteúdo do site -->
+        <main id="main"><!-- Inicio do conteúdo do site -->
 
           <!-- Separarei as colunas onde estarão as ofertas de desenvolvedor -->
                   <div class="coluna">

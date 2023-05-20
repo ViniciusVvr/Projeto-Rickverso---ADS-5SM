@@ -6,269 +6,277 @@
 
 /*Configuração de tudo que devera desscer junto ao scrool*/
 .topo{
-z-index: 2;
-width: 100vw;
-position: fixed;
+  z-index: 2;
+  width: 100vw;
+  position: fixed;
 }
 
 /*Configuração do Header*/
 header{
-width: 100vw;
-height: 10vh;
-background-color: #009df1;
-padding: 2vw 1vw;
-display: flex;
+  width: 100vw;
+  height: 10vh;
+  background-color: #009df1;
+  padding: 2vw 1vw;
+  display: flex;
 }
 
 /*Configurações do body geral*/
 body{
-font-family: 'Josefin Sans', sans-serif;
-background-image: url(imgs/fundo.png);
-width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  background-image: url(imgs/fundo.png);
+  width: 100%;
 }
 
 /*mudança de tamanho do logo dentro do header*/
 header img{
-width: 12vw;   
+  width: 12vw;   
 }
 
 /*Alinhamento de cabeçalho*/
 .cabecalho{
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 /*configuração do nome do site*/
 .nomeSite{
-font-family: 'rickmorty';
-font-size: 3.3vw;
-font-weight: bold;
-color: #3dff47;
-text-shadow: 
--1px -1px 0px #000, 
--1px 1px 0px #012b00,                    
-1px -1px 0px #000,                  
-1px 0px 0px #000000;
+  font-family: 'rickmorty';
+  font-size: 3.3vw;
+  font-weight: bold;
+  color: #3dff47;
+  text-shadow: 
+  -1px -1px 0px #000, 
+  -1px 1px 0px #012b00,                    
+  1px -1px 0px #000,                  
+  1px 0px 0px #000000;
 }
 
 /*Configuração do botão sobre*/
 .botaoSobre, .botaoSobrePrinc {
-background-color: #63925aa2;
-border: none;
-color: white;
-border-radius: 1.5vw;
-padding: 1vw 2vw;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 1.5vw;
-margin: 4px 2px;
-cursor: pointer;
-position: fixed;
-right: 5%;
-font-family: 'rickmorty';
-text-shadow: 
--1px -1px 0px #28aa00, 
--1px 1px 0px #28aa00,                    
-2px -1px 0px #28aa00,                  
-1px 0px 0px #28aa00;
+  background-color: #63925aa2;
+  border: none;
+  color: white;
+  border-radius: 1.5vw;
+  padding: 1vw 2vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5vw;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: fixed;
+  right: 5%;
+  font-family: 'rickmorty';
+  text-shadow: 
+  -1px -1px 0px #28aa00, 
+  -1px 1px 0px #28aa00,                    
+  2px -1px 0px #28aa00,                  
+  1px 0px 0px #28aa00;
 }
 
 .botaoSobre:hover{
-background-color: #2c9431;
-transform: scale(1.1);
-transition: 0.2s;
+  background-color: #2c9431;
+  transform: scale(1.1);
+  transition: 0.2s;
 }
 
 .botaoSobrePrinc{
-background-color: #2c9431;
+  background-color: #2c9431;
 }
 
 /*Configuração do menu de navegação*/
 .navegacao{
-width: 100vw;
-background-color: #fbfbfb;
-padding: 15px 0 10px 0;
-border-bottom: 2px solid rgba(0, 0, 0, 0.135);
-box-shadow: 5px 5px 10px #d5d5d5; 
+  width: 100vw;
+  background-color: #fbfbfb;
+  padding: 15px 0 10px 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.135);
+  box-shadow: 5px 5px 10px #d5d5d5; 
 }
 
 .navegacao ul li{
-display: inline;
-margin-left: 35px;
-font-size: 1vw;
+  display: inline;
+  margin-left: 35px;
+  font-size: 1vw;
 }
 
 .navegacao a{
-text-decoration: none;
-color: rgb(37, 37, 37);
+  text-decoration: none;
+  color: rgb(37, 37, 37);
 }
 
 .navegacao a:hover{
-border-bottom: 3px solid #3dce44;
+  border-bottom: 3px solid #3dce44;
 }
 
 /*Estilização da aba da navegação*/
 .principal a{
-color: #2c9431;
-border-bottom: 3px solid #3dce44;
+  color: #2c9431;
+  border-bottom: 3px solid #3dce44;
 }
 
 /*Configuração da caixa de busca*/
 .buscaPlaceholder{
-background-color: rgba(86, 255, 34, 0.13);
-padding: 0.4vw 3vw 0.4vw 0.8vw;
-border-color: #2c9431;
-border-radius: 0.5vw;
-text-align: left;
-margin-left: 20px;
-font-size: 0.8vw;
+  background-color: rgba(86, 255, 34, 0.13);
+  padding: 0.4vw 3vw 0.4vw 0.8vw;
+  border-color: #2c9431;
+  border-radius: 0.5vw;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 0.8vw;
 }
 
 /*Configuração do botão de busca*/
 .botaoBusca{
-border-color:#2c9431;;
-margin-left: 10px;
-padding: 0.5vw 1vw;
-color: rgb(255, 255, 255);
-background-color: #0c5e11;
-font-family: 'calibri';
-border-radius: 0.5vw;
-font-size: 1vw;
+  border-color:#2c9431;;
+  margin-left: 10px;
+  padding: 0.5vw 1vw;
+  color: rgb(255, 255, 255);
+  background-color: #0c5e11;
+  font-family: 'calibri';
+  border-radius: 0.5vw;
+  font-size: 1vw;
 }
 
 .botaoBusca:hover{
-background-color: #2c9431;
-transform: scale(1.1);
-transition: 0.2s;
+  background-color: #2c9431;
+  transform: scale(1.1);
+  transition: 0.2s;
 }
 
   /*Configuração do corpo do site*/
 main{
-margin: 0 50px;
-background-color: rgba(233, 233, 233, 0.950);
-padding: 15vw 10vw 5vw 10vw;
-height: 100%;
+  margin: 0 50px;
+  background-color: rgba(233, 233, 233, 0.950);
+  padding: 15vw 10vw 5vw 10vw;
+  height: 100%;
 }
 
  /*Configuração do corpo do site na tela sobre*/
 .mainSobre{
-margin: 0 50px;
-background-color: rgba(233, 233, 233, 0.950);
-padding: 150px 200px;
-height: 100%; 
+  margin: 0 50px;
+  background-color: rgba(233, 233, 233, 0.950);
+  padding: 150px 200px;
+  height: 100%; 
 }
 
 /*Configuração das colunas do corpo do site(caixas de ofertas e do sobre*/
 .coluna{
-margin-top: 10%;
-display: flex;
-margin-bottom: 10%;
+  margin-top: 10%;
+  display: flex;
+  margin-bottom: 10%;
+}
+
+/* style da coluna do resultado da pesquisa */
+.colunaDados{
+  margin-top: 10%;
+  display: flex;
+  margin-bottom: 10%;
+  justify-content: center;
 }
 
 .colunaSobre{
-justify-content: center;
-margin-top: 20%;
-text-align: center;
-display: flex;
-margin-bottom: 10%;
+  justify-content: center;
+  margin-top: 20%;
+  text-align: center;
+  display: flex;
+  margin-bottom: 10%;
     
 }
 
 /*Configuração das caixas de oferta e caixa do sobre*/
 .container, .ContainerSobre{
-text-align: center;
-border: 2px solid rgba(0, 0, 0, 0.231);
-width: 50%;
-margin: 0px 20px;
+  text-align: center;
+  border: 2px solid rgba(0, 0, 0, 0.231);
+  width: 50%;
+  margin: 0px 20px;
 }
 
 .oferta{
-margin: 1vw 1vw 1vw 1vw;
-font-family: 'rickmorty';
-font-size: 1.3vw;
-color: #b9b728;
-text-shadow: 
--1px -1px 0px #00000088, 
--1px 1px 0px #272b006e,                    
-1px -1px 0px #00000088,                  
-1px 0px 0px #00000088;   
+  margin: 1vw 1vw 1vw 1vw;
+  font-family: 'rickmorty';
+  font-size: 1.3vw;
+  color: #b9b728;
+  text-shadow: 
+  -1px -1px 0px #00000088, 
+  -1px 1px 0px #272b006e,                    
+  1px -1px 0px #00000088,                  
+  1px 0px 0px #00000088;   
 }
 
 .descricao{
-margin: 1vw 1vw 1vw 1vw;
+  margin: 1vw 1vw 1vw 1vw;
 }
 
 .descricao a{
-color: #118619;
+  color: #118619;
 }
 
 .Container:hover{
-z-index: 1;
-transform: scale(1.001);
-border: 1px solid #3dce44;
-transition: 0.4s;
+  z-index: 1;
+  transform: scale(1.001);
+  border: 1px solid #3dce44;
+  transition: 0.4s;
 }
 
 /*Configuração das imagens das caixas de ofertas*/
 .capa{
-position: relative;
-width: 100%;
-height: 350px;
-object-fit: cover;
+  position: relative;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
 }
  
 /*Configuração da caixa de sobre*/
 .tituloFecaf{
-margin: 1vw 1vw 1vw 1vw;
-font-size: 3vw;
-font-weight: bold;
-color: #1b2fa0;
-margin-bottom: 2.5vw;
+  margin: 1vw 1vw 1vw 1vw;
+  font-size: 3vw;
+  font-weight: bold;
+  color: #1b2fa0;
+  margin-bottom: 2.5vw;
 }
 
 .descricaoSobre{
-margin: 1vw 1vw 1vw 1vw;;
-font-family: 'rickmorty';
-font-size: 4vw;
-font-weight: bold;
-color: #3dff47;
-text-shadow: 
--1px -1px 0px #000, 
--1px 1px 0px #012b00,                    
-1px -1px 0px #000,                  
-1px 0px 0px #000000;
+  margin: 1vw 1vw 1vw 1vw;;
+  font-family: 'rickmorty';
+  font-size: 4vw;
+  font-weight: bold;
+  color: #3dff47;
+  text-shadow: 
+  -1px -1px 0px #000, 
+  -1px 1px 0px #012b00,                    
+  1px -1px 0px #000,                  
+  1px 0px 0px #000000;
 }
 
 /*linha de direcionamento de pesquisa da API*/
 .catalisador{
-margin: 1vw 1vw 1vw 1vw;
-font-family: 'rickmorty';
-font-size: 1.8vw;
-color: #68a715;
-text-shadow: 
--1px -1px 0px #00000088, 
--1px 1px 0px #17c9006e,                    
-1px -1px 0px #00000088,                  
-1px 0px 0px #00000088; 
-text-align: center;  
+  margin: 1vw 1vw 1vw 1vw;
+  font-family: 'rickmorty';
+  font-size: 1.8vw;
+  color: #68a715;
+  text-shadow: 
+  -1px -1px 0px #00000088, 
+  -1px 1px 0px #17c9006e,                    
+  1px -1px 0px #00000088,                  
+  1px 0px 0px #00000088; 
+  text-align: center;  
 }
 
 /*Configuração do footer*/
 footer{
-color:#f3f3f3;
-width: 100%;
-background-color: #009df1bb;
-padding: 2vw 0vw;
-align-items: center;
-text-align: center;
-bottom: 0;
-left: 0;
-z-index: 2;
+  color:#f3f3f3;
+  width: 100%;
+  background-color: #009df1bb;
+  padding: 2vw 0vw;
+  align-items: center;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
 }
 
 footer img{
-width: 6%;
-margin-top: 1%;
+  width: 6%;
+  margin-top: 1%;
 }
 
